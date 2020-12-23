@@ -1,0 +1,38 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+      <component name="GradleLocalSettings">
+        <option name="projectSyncType">
+          <map>
+            <entry key="H:/Workspaces/Minecraft/Catalyst2/Discord-Chat-Integration-1.16/Discord-Chat-Integration-1.16" value="PREVIEW" />
+            <entry key="H:/Workspaces/Minecraft/Catalyst2/DiscordIntegration-4-mc1.7/DiscordIntegration-4-mc1.7" value="PREVIEW" />
+            <entry key="H:/Workspaces/Minecraft/Catalyst2/DiscordIntegrationGitHub" value="PREVIEW" />
+            <entry key="H:/Workspaces/Minecraft/Catalyst2/DiscordIntegrationUnofficial/DiscordIntegration-4-mc1.7" value="PREVIEW" />
+            <entry key="H:/Workspaces/Minecraft/Catalyst2/DiscordIntegrationUnofficialFromGit" value="PREVIEW" />
+            <entry key="H:/Workspaces/Minecraft/Catalyst2/GeiloUtils-master/GeiloUtils-master" value="PREVIEW" />
+            <entry key="H:/Workspaces/Minecraft/Catalyst2/GregTech6-Unofficial" value="PREVIEW" />
+            <entry key="H:/Workspaces/Minecraft/Catalyst2/RecurrentComplex-1.7" value="PREVIEW" />
+            <entry key="H:/Workspaces/Minecraft/Catalyst2/RecurrentComplex-master" value="PREVIEW" />
+          </map>
+        </option>
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>
