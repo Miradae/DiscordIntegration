@@ -17,17 +17,17 @@ apply plugin: 'java'
 apply plugin: 'com.diffplug.gradle.spotless'
 
 def mcVersion = '1.7.10'
-def forgeVersion = '10.13.4.1558'
-def modVersion = '3.0.5'
+def forgeVersion = '10.13.4.1614'
+def modVersion = '3.1.1'
 
-def jdaVersion = '3.5.1'
-def jdaJob = 339
+def jdaVersion = '3.8.3'
+def jdaJob = 464
 
 def downloadDir = "${buildDir}/download/"
 
-version = 'mc' + mcVersion + '-' + modVersion
+version = 'mc' + mcVersion + '-' + modVersion + '_' + jdaVersion + '_' + jdaJob
 group = "chikachi.discord"
-archivesBaseName = "DiscordIntegration"
+archivesBaseName = "DiscordIntegrationUnoffical"
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -124,7 +124,7 @@ def CurseForgeDependencyDownloader = { dependencyInfo ->
 }
 
 def JDADependencyDownloader = {
-  String url = "http://home.dv8tion.net:8080/job/JDA/${jdaJob}/artifact/build/libs/JDA-${jdaVersion}_${jdaJob}-withDependencies.jar"
+  String url = "https://ci.dv8tion.net/job/JDA3-Legacy/${jdaJob}/artifact/build/libs/JDA-${jdaVersion}_${jdaJob}-withDependencies.jar"
   File file = new File("${downloadDir}/JDA-${jdaVersion}_${jdaJob}-withDependencies.jar")
   file.parentFile.mkdirs()
   if (!file.exists()) {
@@ -140,7 +140,7 @@ def JDADependencyDownloader = {
 
 // Dependencies on CurseForge
 List<CurseForgeDependencyInfo> curseForgeDependencies = new ArrayList<CurseForgeDependencyInfo>()
-curseForgeDependencies.add(new CurseForgeDependencyInfo("Dynmap", "2.4-forge-1.7.10", "jar", "2380586"))
+//curseForgeDependencies.add(new CurseForgeDependencyInfo("Dynmap", "2.4-forge-1.7.10", "jar", "2380586"))
 
 dependencies {
   shade JDADependencyDownloader()
