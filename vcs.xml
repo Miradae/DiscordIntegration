@@ -30,6 +30,10 @@
           <option name="url" value="https://github.com/FTBTeam/FTB-Library.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Miradae/gregtech6.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="H:\Workspaces\Minecraft\MyMods" />
